@@ -52,13 +52,64 @@ body{
     font-size: xx-large;
     margin-top: 1.2em;
 }
+
 .article {
     grid-area: article;
-
+    font-family: 'Anton', sans-serif;
+    font-size: xx-large;
+    margin-top: 1em;
 }
+blockquote {
+    padding: .8em 0;
+}
+
 .circles {
     grid-area: circles;
+    font-family: 'Anton', sans-serif;
+    color: white;
 }
+.red {
+    width: 100px;
+    height: 100px;
+    background: #e6563b;
+    border-radius: 50%;
+    border: .5em solid white ;
+    display: flex;
+
+}
+.orange {
+    width: 100px;
+    height: 100px;
+    background: #EB9D3A;
+    border-radius: 50%;
+    border: .5em solid white ;
+    display: flex;
+
+}
+.green {
+    width: 100px;
+    height: 100px;
+    background: #7cb06c;
+    border-radius: 50%;
+    border: .5em solid white ;
+    display: flex;
+
+}
+.cyan {
+    width: 100px;
+    height: 100px;
+    background: #00aba9;
+    border-radius: 50%;
+    border: .5em solid white ;
+    display: flex;
+
+}
+h5 {
+    align-self: center;
+    justify-self: flex-end;
+
+}
+
 .footer {
     grid-area: footer;
 }
