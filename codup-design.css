@@ -4,6 +4,7 @@
     padding: 0;
 }
 body{
+    /*display: grid;*/
     text-align: center;
     background-color: #f0f0f0;
     grid-template-rows: 15% 10% 10% 15% 35% 25%;
@@ -63,50 +64,72 @@ blockquote {
     padding: .8em 0;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 .circles {
     grid-area: circles;
-    font-family: 'Anton', sans-serif;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    display: grid;
+/*display:flex;*/
+/*justify-content: center;*/
+font-family: 'Anton', sans-serif;
     color: white;
+    width: 300px;
+    height: 300px   ;
 }
 .red {
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 125px;
+    grid-area: 1 / 1 / 2 / 2;
     background: #e6563b;
     border-radius: 50%;
     border: .5em solid white ;
     display: flex;
+    justify-self: flex-end;
+
 
 }
 .orange {
-    width: 100px;
-    height: 100px;
+    grid-area: 1 / 2 / span 1 / span 1;
+    width: 125px;
+    height: 125px;
     background: #EB9D3A;
     border-radius: 50%;
     border: .5em solid white ;
     display: flex;
+    justify-self: flex-end;
 
 }
 .green {
-    width: 100px;
-    height: 100px;
+    grid-area: 2 / 1 / span 1 / span 1;
+    width: 125px;
+    height: 125px;
     background: #7cb06c;
     border-radius: 50%;
     border: .5em solid white ;
     display: flex;
+    justify-self: flex-end;
 
 }
 .cyan {
-    width: 100px;
-    height: 100px;
+    grid-area: 2 / 2 / span 1 / span 1;
+    width: 125px;
+    height: 125px;
     background: #00aba9;
     border-radius: 50%;
     border: .5em solid white ;
     display: flex;
+    justify-self: flex-end;
+
 
 }
 h5 {
-    align-self: center;
-    justify-self: flex-end;
+    margin: auto;
+    font-size: x-large;
 
 }
 
