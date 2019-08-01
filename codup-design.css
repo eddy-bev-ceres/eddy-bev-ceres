@@ -60,8 +60,17 @@ body{
     font-size: xx-large;
     margin-top: 1em;
 }
+.box-2{
+    display: none;
+}
 blockquote {
     padding: .8em 0;
+    height: auto;
+    width: 100%;
+    /*border: 1px solid darkviolet;*/
+}
+.last {
+    display: none;
 }
 
 .container {
@@ -126,15 +135,16 @@ blockquote {
 
 
 }
+
 h5 {
     margin: auto;
     font-size: x-large;
 
 }
-
 .footer {
     grid-area: footer;
 }
+
 header {
     display: flex;
     justify-content: center;
@@ -143,6 +153,7 @@ header {
     height: 55px;
     margin-top: 3em;
 }
+
 
 img {
     height: 105px;
@@ -153,7 +164,6 @@ img {
 
 }
 
-
 .selected {
 
     font-family: 'Abel', sans-serif;
@@ -161,11 +171,7 @@ img {
     height: auto;
     margin-top: 5.5em;
 }
-blockquote {
-    height: auto;
-    width: 100%;
-    /*border: 1px solid darkviolet;*/
-}
+
 
 .apple {
     margin-top: 2em;
@@ -175,9 +181,6 @@ blockquote {
     border-radius: 6px;
 
 
-}
-.box-2{
-    display: none;
 }
 .box-3{
     display: none;
@@ -285,6 +288,7 @@ blockquote {
     .box-2 {
         display: block;
 
+
     }
     .box-3 {
         display: block;
@@ -302,16 +306,34 @@ blockquote {
         width: 800px;
         height: 450px;
     }
-    }
+
 }
 
 
 /* Medium devices (desktops, 992px and up) */
 @media screen and (min-width:992px) {
 
+    .line {
+        width: 56em;
+        margin-left: 3em;
+    }
+
+    }
+    .work {
+        display: flex;
+        padding-left: 5em;
+        height: auto;
+        width: 100%;
+        list-style: none;
+    }
 
 
+    .last {
+        display: flex;
+        padding-left: 34em;
 
+
+        /*justify-content: flex-end;*/
 
 
 }
