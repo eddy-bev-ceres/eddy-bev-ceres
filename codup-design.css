@@ -74,12 +74,10 @@ blockquote {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     display: grid;
-/*display:flex;*/
-/*justify-content: center;*/
-font-family: 'Anton', sans-serif;
+    font-family: 'Anton', sans-serif;
     color: white;
     width: 300px;
-    height: 300px   ;
+    height: 300px;
 }
 .red {
     width: 125px;
@@ -90,6 +88,7 @@ font-family: 'Anton', sans-serif;
     border: .5em solid white ;
     display: flex;
     justify-self: flex-end;
+    align-self: center;
 
 
 }
@@ -102,7 +101,7 @@ font-family: 'Anton', sans-serif;
     border: .5em solid white ;
     display: flex;
     justify-self: flex-end;
-
+    align-self: center;
 }
 .green {
     grid-area: 2 / 1 / span 1 / span 1;
@@ -155,10 +154,33 @@ img {
 }
 
 
+.selected {
 
+    font-family: 'Abel', sans-serif;
+    width: 100%;
+    height: auto;
+    margin-top: 5.5em;
+}
+blockquote {
+    height: auto;
+    width: 100%;
+    /*border: 1px solid darkviolet;*/
+}
+.apple {
+    margin-top: 2em;
+    width: 60%;
+    height: auto;
+    border: 8px solid #e6e6e6;
+    border-radius: 6px;
+
+}
+.badge {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
 /* Small devices (tablets, 768px and up) */
 @media screen and (min-width:768px) {
-
 
 
 
