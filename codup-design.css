@@ -176,8 +176,40 @@ blockquote {
 }
 .badge {
     display: flex;
-    width: 100%;
+    width: 60%;
     height: auto;
+    align-content: center;
+    margin: 10px auto;
+
+
+
+}
+.product {
+
+    margin-right: auto;
+}
+
+h6 {
+    backgroundcol: #e6563b;
+}
+.d2 {
+    background: #EB9D3A;
+}
+.s3 {
+    background: #7cb06c;
+}
+.h4 {
+    background: #00aba9;
+}
+.badge1 {
+    width: 18px;
+    height: 18px;
+    background: #EB9D3A;
+    border-radius: 50%;
+    font-size: x-small;
+
+    margin-right: .5em;
+
 }
 /* Small devices (tablets, 768px and up) */
 @media screen and (min-width:768px) {
