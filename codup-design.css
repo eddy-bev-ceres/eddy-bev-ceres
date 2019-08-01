@@ -274,10 +274,17 @@ blockquote {
     margin-left: 10em;
 }
 .selected {
-    margin-top: 1em;
+    margin-top: .6em;
+
+
 }
+    .box-1 {
+
+    }
+
     .box-2 {
         display: block;
+
     }
     .box-3 {
         display: block;
@@ -286,7 +293,18 @@ blockquote {
         display: block;
     }
 
+    .photo-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        display: grid;
+        font-family: 'Anton', sans-serif;
+        /*color: white;*/
+        width: 800px;
+        height: 450px;
+    }
+    }
 }
+
 
 /* Medium devices (desktops, 992px and up) */
 @media screen and (min-width:992px) {
