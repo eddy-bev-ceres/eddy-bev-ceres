@@ -387,12 +387,14 @@ img {
         display: flex;
         flex-direction: column;
         align-content: space-evenly;
-        /*margin-top: ;*/
+        margin-top: .2em ;
 
       }
     .tweet {
         font-size: 1em;
         font-family: 'Abel', sans-serif;
+         margin-top: 0;
+
     }
     .third li {
         margin-bottom: 1em;
@@ -400,18 +402,18 @@ img {
 
     }
     .phone {
-        height:4em ;
-        width: 4em;
+        height:5em ;
+        width: 5em;
         padding-right: 10px;
     }
     .head {
-        height:4em ;
-        width: 4em;
+        height:5em ;
+        width: 5em;
         padding-right: 10px;
     }
     .ipad {
-        height:4em ;
-        width: 4em;
+        height:5em ;
+        width: 5em;
         padding-right: 10px;
 
     }
@@ -419,7 +421,14 @@ img {
         width: 90%;
         height:auto ;
     }
+    .right-col {
+        float: right;
+        text-align: left;
+    }
+    .bird {
+        margin-right: 10em;
 
+    }
 }
 
 /* Large devices (large desktops, 1200px and up) */
