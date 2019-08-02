@@ -334,7 +334,7 @@ img {
 
     .work {
         display: flex;
-        padding-left: 2em;
+        padding-left: 3em;
         height: auto;
         width: 100%;
         list-style: none;
@@ -344,18 +344,19 @@ img {
 
     .last {
         display: flex;
-        padding-left: 25em;
+        padding-left: 31em;
         /*justify-content: flex-end;*/
     }
 
     .photo-container {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 40%;
         grid-template-rows: 1fr 1fr;
         display: grid;
         font-family: 'Anton', sans-serif;
         /*color: white;*/
         width: 800px;
         height: 450px;
+        margin-left: 7em;
     }
 
     .side {
@@ -388,7 +389,7 @@ img {
         flex-direction: column;
         align-content: space-evenly;
         margin-top: .2em ;
-
+        margin-left: 3em;
       }
     .tweet {
         font-size: 1em;
@@ -420,6 +421,11 @@ img {
     .badge {
         width: 90%;
         height:auto ;
+        margin-left: 3em
+    }
+    #security {
+        width: 95%;
+        height:auto ;
     }
     .right-col {
         float: right;
@@ -434,7 +440,10 @@ img {
 /* Large devices (large desktops, 1200px and up) */
 @media screen and (min-width:1200px) {
 
-
+    body {
+        width: 900px;
+        margin: 0 auto;
+    }
 
 
 }
