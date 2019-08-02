@@ -170,6 +170,7 @@ img {
     width: 100%;
     height: auto;
     margin-top: 5.5em;
+    list-style: none;
 }
 
 
@@ -229,6 +230,13 @@ img {
     align-items: center;
 
 }
+.third {
+    display: none;
+}
+.work {
+    list-style: none;
+}
+
 /* Small devices (tablets, 768px and up) */
 @media screen and (min-width:768px) {
 
@@ -278,6 +286,7 @@ img {
 }
 .selected {
     margin-top: .6em;
+    list-style: none;
 
 
 }
@@ -311,6 +320,7 @@ img {
         height: 450px;
     }
 
+
 }
 
 
@@ -324,18 +334,20 @@ img {
 
     .work {
         display: flex;
-        padding-left: 5em;
+        padding-left: 2em;
         height: auto;
         width: 100%;
         list-style: none;
+        margin-bottom: .5em;
     }
 
 
     .last {
         display: flex;
-        padding-left: 34em;
+        padding-left: 25em;
         /*justify-content: flex-end;*/
     }
+
     .photo-container {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
@@ -345,9 +357,11 @@ img {
         width: 800px;
         height: 450px;
     }
+
     .side {
         grid-area: 1/ 3/ 3/ 4;
     }
+
     .box-1 {
         grid-area: 1 /2 /1 /1;
     }
@@ -357,15 +371,55 @@ img {
         grid-area: 1/ 2/ 2/ 3;
 
     }
+
     .box-3 {
         display: block;
         grid-area: 2/ 1/ 3/ 2;
 
     }
+
     .box-4 {
         display: block;
         grid-area: 2/ 2/ 3/ 3;
     }
+    .third {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-content: space-evenly;
+        /*margin-top: ;*/
+
+      }
+    .tweet {
+        font-size: 1em;
+        font-family: 'Abel', sans-serif;
+    }
+    .third li {
+        margin-bottom: 1em;
+        margin-top: 2em;
+
+    }
+    .phone {
+        height:4em ;
+        width: 4em;
+        padding-right: 10px;
+    }
+    .head {
+        height:4em ;
+        width: 4em;
+        padding-right: 10px;
+    }
+    .ipad {
+        height:4em ;
+        width: 4em;
+        padding-right: 10px;
+
+    }
+    .badge {
+        width: 90%;
+        height:auto ;
+    }
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
